@@ -5,6 +5,7 @@ body {
   min-width: 320px;
   background: #fff4f0;
 }
+/* TODO add space after every block */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -30,6 +31,7 @@ html {
 
 .menu {
   
+  /*Remove space*/
   margin: 0 30px 0 0;
 }
 
@@ -52,9 +54,11 @@ label {
   display: none;
   width: 30px;
   float: right;
+  /* Use flex for layout */
 }
 
 #toggle {
+  /* If dou you can work with class not id */
   display: none;
 }
 
@@ -77,3 +81,5 @@ label {
     display: block;
   }
 }
+
+/* TODO Fix button position after open menu */
